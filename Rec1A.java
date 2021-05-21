@@ -50,39 +50,39 @@ public class Rec1A {
         // Note that count is accessed via the Rec1A class, not one of its
         // instances!
         System.out.println("Number of Rec1A objects created at start: " +
-                Rec1A.count);
+                Rec1A.count); // 0
 
         Rec1A matilda = new Rec1A("Matilda");
 
         // Again, note this is not matilda.count
         System.out.println("Number of Rec1A objects created incl. Matilda: " +
-                Rec1A.count);
+                Rec1A.count); //1
 
         Rec1A lakshmi = new Rec1A("Lakshmi");
         Rec1A owen = new Rec1A("Owen");
 
         System.out.println("Number of Rec1A objects created after two more: " +
-                Rec1A.count);
+                Rec1A.count); // 3
 
         // Note here that custom is another reference to the same object as
         // matilda!
-        Rec1A custom = matilda;
+        Rec1A custom = owen;
 
         System.out.println("Number of Rec1A objects created incl. custom: " +
-                Rec1A.count);
+                Rec1A.count); // 3
 
         System.out.println();
 
         Scanner stdin = new Scanner(System.in);
-        System.out.print("Enter a new name: ");
+        System.out.print("Enter a new name: "); // nnn
         String name = stdin.nextLine();
         custom.setName(name);
         System.out.println();
 
-        System.out.println("custom's name: " + custom.getName());
-        System.out.println("matilda's name: " + matilda.getName());
-        System.out.println("lakshmi's name: " + lakshmi.getName());
-        System.out.println("owen's name: " + owen.getName());
+        System.out.println("custom's name: " + custom.getName()); // nnn
+        System.out.println("matilda's name: " + matilda.getName()); // nnn
+        System.out.println("lakshmi's name: " + lakshmi.getName()); // lakshmi
+        System.out.println("owen's name: " + owen.getName());  // owen
 
     }
 
