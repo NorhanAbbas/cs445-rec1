@@ -80,4 +80,5 @@ these steps, or you do not understand them, ask your TA or come to office hours!
 Understanding these concepts will be crucial to success in your assignments!
 
 >> WE MADE IT HERE!!
+>>"This is new"
 
