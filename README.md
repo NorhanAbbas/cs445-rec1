@@ -99,4 +99,5 @@ More importantly than just following these steps, the goal of these exercises is
 to prepare you for your programming assignments. If you have trouble completing
 these steps, or you do not understand them, ask your TA or come to office hours!
 Understanding these concepts will be crucial to success in your assignments!
+>>>
 
